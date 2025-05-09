@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página profesional de cosmetología con tratamientos faciales, maquillaje profesional y terapias capilares">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Cosmetología Visual">
+    <title>Cosmetología | Belleza y Cuidado de la Piel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Preconexión para mejorar performance y seguridad -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+    <!-- Política de seguridad de contenido -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; img-src 'self' https://images.unsplash.com data:; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; frame-src 'none'; object-src 'none'">
+    
+    <!-- Protección contra clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    
+    <!-- Prevención de MIME sniffing -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    
+    <!-- Referrer policy para privacidad -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Preload de fuentes críticas -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- Carga diferida de Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+    
+    <!-- Favicon seguro -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💄</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💄</text></svg>">
+</head>
+<body>
+    <header>
+        <div class="logo">Cosmetología Visual</div>
+        <div class="tagline">Belleza, ciencia y arte en armonía</div>
+    </header>
+    
+    <nav>
+        <div class="nav-container">
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Descubre el arte de la cosmetología</h1>
+            <p>Transformamos tu belleza natural con técnicas innovadoras y productos de la más alta calidad.</p>
+            <a href="#contacto" class="btn">Agenda una cita</a>
+        </div>
+    </section>
+    
+    <div class="container">
+        <section id="servicios">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1599351431407-2f0ef3017593?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Tratamientos faciales">
+                    </div>
+                    <div class="service-content">
+                        <h3>Tratamientos Faciales</h3>
+                        <p>Personalizados según tu tipo de piel para lograr un cutis radiante y saludable. Incluye limpieza profunda, exfoliación e hidratación.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1519735777090-ec97162dc266?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Maquillaje profesional">
+                    </div>
+                    <div class="service-content">
+                        <h3>Maquillaje Profesional</h3>
+                        <p>Para eventos especiales o el día a día, realzamos tus rasgos con técnicas profesionales y productos de larga duración.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Terapias capilares">
+                    </div>
+                    <div class="service-content">
+                        <h3>Terapias Capilares</h3>
+                        <p>Tratamientos reconstructivos y nutritivos para devolverle la vitalidad a tu cabello. Incluye diagnóstico capilar personalizado.</p>
+                        <a href="#" class="btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="nosotros" class="about">
+            <div class="about-content">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <p>Cosmetología Visual nace de la pasión por el cuidado de la piel y la belleza integral. Nuestro equipo de profesionales está altamente capacitado en las últimas técnicas y tendencias de la industria.</p>
+                <p>Creemos en un enfoque holístico de la belleza, combinando ciencia, arte y bienestar para ofrecer resultados excepcionales y duraderos. Todos nuestros productos son seleccionados cuidadosamente por su calidad y eficacia.</p>
+                <p>Con más de 10 años de experiencia en el mercado, hemos ayudado a cientos de clientes a alcanzar sus objetivos de belleza y autoestima.</p>
+                <a href="#contacto" class="btn">Conoce más</a>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Equipo de cosmetología">
+            </div>
+        </section>
+    </div>
+    
+    <section class="testimonials" id="testimonios">
+        <div class="container">
+            <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>Increíble experiencia. Mi piel nunca se había sentido tan bien. Los tratamientos faciales han cambiado completamente la textura de mi cutis. ¡Totalmente recomendado!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="María González">
+                        </div>
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Cliente desde 2019</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>El maquillaje para mi boda fue perfecto. Duradero, natural y resaltó mis rasgos sin verme sobrecargada. El equipo es muy profesional y atento.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Ana Martínez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Ana Martínez</h4>
+                            <p>Cliente desde 2020</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>Después de años de sufrir con mi cabello dañado, las terapias capilares me devolvieron la salud a mi pelo. Noté la diferencia desde la primera sesión.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-img">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Laura Sánchez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Laura Sánchez</h4>
+                            <p>Cliente desde 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="container">
+        <section class="social-media">
+            <h3 class="social-title">Síguenos en redes sociales</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com/cosmetologiavisual" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://instagram.com/cosmetologiavisual" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/cosmetologiavis" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://pinterest.com/cosmetologiavisual" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-pinterest-p"></i>
+                </a>
+                <a href="https://youtube.com/c/cosmetologiavisual" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://tiktok.com/@cosmetologiavisual" target="_blank" rel="noopener noreferrer" class="social-icon">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+    
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Belleza 123, Ciudad</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@cosmetologiavisual.com</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Horario</h3>
+                <ul>
+                    <li>Lunes a Viernes: 9am - 7pm</li>
+                    <li>Sábados: 10am - 4pm</li>
+                    <li>Domingos: Cerrado</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2023 Cosmetología Visual. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+    <script>
+        // Menú hamburguesa para móviles
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        });
+        
+        // Cierra el menú al hacer clic en un enlace (para móviles)
+        const navLinks = document.querySelectorAll('#nav-menu a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('nav-menu').classList.remove('active');
+            });
+        });
+        
+        // Optimización para móviles: carga diferida de imágenes
+        if ('IntersectionObserver' in window) {
+            const lazyImages = document.querySelectorAll('img[data-src]');
+            
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            
+            lazyImages.forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
+</body>
+</html>
